@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleksi CHINDO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="form-page">
+
+<div class="container">
+
+    <div class="logo-symbol">
+        𖤓 ☾ ✧ ☽ 𖤓
+    </div>
+
+    <h1>CHINDO DARK CRESCENT</h1>
+    <p class="subtitle">SELEKSI OFFICIAL MEMBER</p>
+
+    <div class="upload-box">
+        <div class="image-preview" id="preview">
+            Upload Foto
+        </div>
+
+        <input type="file" id="foto" hidden>
+        <button class="upload-btn" onclick="document.getElementById('foto').click()">
+            Pilih Foto
+        </button>
+    </div>
+
+    <form class="form-grid">
+
+        <div class="input-group">
+            <label>Nama</label>
+            <input type="text" placeholder="Masukkan nama">
+        </div>
+
+        <div class="input-group">
+            <label>Umur</label>
+            <input type="number" placeholder="Masukkan umur">
+        </div>
+
+        <div class="input-group">
+            <label>Askot</label>
+            <input type="text" placeholder="Asal kota">
+        </div>
+
+        <div class="input-group">
+            <label>Agama</label>
+            <select>
+                <option>Pilih agama</option>
+                <option>Islam</option>
+                <option>Kristen</option>
+                <option>Katolik</option>
+                <option>Hindu</option>
+                <option>Buddha</option>
+                <option>Konghucu</option>
+            </select>
+        </div>
+
+        <div class="input-group full">
+            <label>Marga</label>
+            <input type="text" placeholder="Contoh: Tan, Lim, Ong">
+        </div>
+
+        <button class="submit-btn">
+            DAFTAR SEKARANG
+        </button>
+
+    </form>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
